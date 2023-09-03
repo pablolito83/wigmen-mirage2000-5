@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+	<scenario>
+
+		<description>
+			1 mirage 2000 companions for formation
+			
+			
+			- F-R834.
+
+			Version 1, August 31 , 2023
+		</description>
+
+		<entry>
+			<name>Show-2</name>
+			<type>wingman</type>
+			<model>AI/Aircraft/Mirage2000-5/Models/m2000-5.xml</model>
+			<x-offset>-35</x-offset>
+			<y-offset>-63</y-offset>
+			<z-offset>0</z-offset>
+			<formate>true</formate>
+			<max-speed-kts>800</max-speed-kts>
+			<azimuth>0</azimuth>
+			<elevation>0</elevation>
+			<life>-1</life>
+			<no-roll type="bool">false</no-roll>
+			<sub-ID>0</sub-ID>
+			<parent type="string"></parent>
+			<pitch-offset>0</pitch-offset>
+			<roll-offset>0</roll-offset>
+			<yaw-offset>0</yaw-offset>
+			<ground-offset>0</ground-offset>
+			<coefficients>
+				<heading>5.0</heading>
+				<pitch>4.0</pitch>
+				<bank>4.0</bank>
+				<speed>9.9</speed>
+			</coefficients>
+		</entry>
+	</scenario>
+
+</PropertyList>
